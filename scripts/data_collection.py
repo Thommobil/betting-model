@@ -4,7 +4,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # Configurar API Key
-API_KEY = os.environ["57cda52428ec40d58512cea87613e70e"]
+API_KEY = os.environ["FOOTBALL_DATA_API_KEY"]
 COMPETITION_CODE = "ELC"  # Championship
 
 def fetch_matches():

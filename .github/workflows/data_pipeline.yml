@@ -24,7 +24,7 @@ jobs:
       
       - name: Run data collection
         env:
-          API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
         run: |
           mkdir -p data/database
           python scripts/data_collection.py
